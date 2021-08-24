@@ -1,0 +1,19 @@
+.figure__figcaption {
+  margin-top: 8px;
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media (max-width:1023px) {
+  .figure__figcaption {
+    margin-left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .figure__figcaption {
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,17 @@
+.header__lang-links {
+  display: flex;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 18px 0 6px;
+}
+
+@media (max-width: 425px) {
+  .header__lang-links {
+    font-size: 18px;
+    line-height: 20px;
+    margin: 14px 0 8px;
+  }
+}
