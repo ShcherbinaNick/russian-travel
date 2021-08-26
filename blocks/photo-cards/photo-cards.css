@@ -9,7 +9,7 @@
   gap: 16px;
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .photo-cards {
     max-width: 928px;
     grid-template-columns: repeat(auto-fill, 300px);
@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .photo-cards {
     margin: 88px auto 0;
     max-width: 720px;
@@ -26,7 +26,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .photo-cards {
    min-width: 288px;
    margin: 64px auto 0;

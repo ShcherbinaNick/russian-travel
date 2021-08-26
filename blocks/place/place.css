@@ -3,28 +3,29 @@
   min-width: 320px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 1fr minmax(min-content, 484px);
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
   gap: 48px 40px;
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   .place {
-    grid-template-columns: 440px 456px;
+    grid-template-columns: 1fr minmax(min-content, 456px);
     gap: 48px 32px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .place {
-    grid-template-columns: 340px 352px;
+    grid-template-columns: 1fr minmax(min-content, 352px);
     gap: 48px 28px;
   }
 }
 
-@media (max-width:425px) {
+@media (max-width: 425px) {
   .place {
     justify-content: center;
-    grid-template-columns: 288px;
+    grid-template-columns: 320px;
     gap: 32px;
   }
 }
