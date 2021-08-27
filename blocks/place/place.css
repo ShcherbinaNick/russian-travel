@@ -15,14 +15,14 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .place {
     grid-template-columns: 1fr minmax(min-content, 352px);
     gap: 48px 28px;
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .place {
     justify-content: center;
     grid-template-columns: 320px;
